@@ -1,0 +1,370 @@
+{
+  "posts": [
+    {
+      "id": "2",
+      "title": "Technology Today",
+      "body": "An insight into the advan.",
+      "name": "John Doe"
+    },
+    {
+      "id": "3",
+      "name": "Charlie",
+      "title": "Healthy Eating",
+      "body": "A guide to maintaining a balanced diet for a healthy lifestyle.",
+      "userId": 2
+    },
+    {
+      "id": "4",
+      "name": "Diana",
+      "title": "Travel Diaries",
+      "body": "Experiences from my trip to the Caribbean islands.",
+      "userId": 3
+    },
+    {
+      "id": "6",
+      "title": "Fitness Motivation",
+      "body": "How to stay motivated and maintain a regular workout routine.",
+      "name": "Frank",
+      "userId": 4
+    },
+    {
+      "id": "10",
+      "name": "Jack",
+      "title": "Home Automation",
+      "body": "How to automate your home with smart technology.",
+      "userId": 8
+    },
+    {
+      "id": "11",
+      "name": "Katherine",
+      "title": "Cooking for Beginners",
+      "body": "Simple and easy recipes for those starting out in the kitchen.",
+      "userId": 9
+    },
+    {
+      "id": "12",
+      "name": "Liam",
+      "title": "The World of Photography",
+      "body": "Capturing stunning moments through the lens of a camera.",
+      "userId": 10
+    },
+    {
+      "id": "13",
+      "name": "Mia",
+      "title": "The Digital Nomad Lifestyle",
+      "body": "Working remotely while traveling the world.",
+      "userId": 1
+    },
+    {
+      "id": "14",
+      "name": "Nathan",
+      "title": "The Importance of Sleep",
+      "body": "How quality sleep affects your overall well-being.",
+      "userId": 2
+    },
+    {
+      "id": "15",
+      "name": "Olivia",
+      "title": "Home Decor Tips",
+      "body": "How to make your home stylish and cozy.",
+      "userId": 3
+    },
+    {
+      "id": "16",
+      "name": "Paul",
+      "title": "Investing 101",
+      "body": "An introduction to investing for beginners.",
+      "userId": 4
+    },
+    {
+      "id": "17",
+      "name": "Quinn",
+      "title": "Cycling Across Europe",
+      "body": "My journey cycling through various European countries.",
+      "userId": 5
+    },
+    {
+      "id": "18",
+      "name": "Rachel",
+      "title": "The Magic of Reading",
+      "body": "How reading books can change your perspective on life.",
+      "userId": 6
+    },
+    {
+      "id": "19",
+      "name": "Samuel",
+      "title": "Building a Startup",
+      "body": "Challenges and lessons learned from starting my own business.",
+      "userId": 7
+    },
+    {
+      "id": "20",
+      "name": "Tina",
+      "title": "Mental Health Awareness",
+      "body": "Why mental health is just as important as physical health.",
+      "userId": 8
+    },
+    {
+      "id": "21",
+      "name": "Ursula",
+      "title": "Eco-friendly Living",
+      "body": "How to reduce your carbon footprint and live sustainably.",
+      "userId": 9
+    },
+    {
+      "id": "22",
+      "name": "Victor",
+      "title": "Music Production",
+      "body": "Tips on producing your own music from home.",
+      "userId": 10
+    },
+    {
+      "id": "23",
+      "name": "Wendy",
+      "title": "Parenting in the Digital Age",
+      "body": "Navigating technology and raising kids in today's world.",
+      "userId": 1
+    },
+    {
+      "id": "24",
+      "name": "Xander",
+      "title": "Cryptocurrency Explained",
+      "body": "An overview of how cryptocurrency works and its potential.",
+      "userId": 2
+    },
+    {
+      "id": "25",
+      "name": "Yara",
+      "title": "Photography Tips",
+      "body": "Improving your photography skills with simple techniques.",
+      "userId": 3
+    },
+    {
+      "id": "26",
+      "name": "Zane",
+      "title": "The Art of Storytelling",
+      "body": "How to craft compelling stories that captivate your audience.",
+      "userId": 4
+    },
+    {
+      "id": "27",
+      "name": "Anna",
+      "title": "Exploring the Outdoors",
+      "body": "Why spending time in nature is important for mental health.",
+      "userId": 5
+    },
+    {
+      "id": "28",
+      "name": "Brian",
+      "title": "Space Exploration",
+      "body": "The latest advancements in space travel and exploration.",
+      "userId": 6
+    },
+    {
+      "id": "29",
+      "name": "Chloe",
+      "title": "Mindful Eating",
+      "body": "Understanding your body's needs through mindful eating.",
+      "userId": 7
+    },
+    {
+      "id": "30",
+      "name": "David",
+      "title": "AI in Healthcare",
+      "body": "How artificial intelligence is transforming healthcare.",
+      "userId": 8
+    },
+    {
+      "id": "31",
+      "name": "Eva",
+      "title": "Self-Care Tips",
+      "body": "How to take care of yourself in a busy world.",
+      "userId": 9
+    },
+    {
+      "id": "32",
+      "name": "Fred",
+      "title": "The Future of Work",
+      "body": "How technology is reshaping the way we work.",
+      "userId": 10
+    },
+    {
+      "id": "33",
+      "name": "Grace",
+      "title": "Starting a Podcast",
+      "body": "Everything you need to know to launch your own podcast.",
+      "userId": 1
+    },
+    {
+      "id": "34",
+      "name": "Hank",
+      "title": "The History of Cinema",
+      "body": "A look back at the history and evolution of cinema.",
+      "userId": 2
+    },
+    {
+      "id": "35",
+      "name": "Ivy",
+      "title": "The Power of Networking",
+      "body": "Why building connections is crucial for career growth.",
+      "userId": 3
+    },
+    {
+      "id": "36",
+      "name": "James",
+      "title": "Entrepreneurship Lessons",
+      "body": "What I've learned from starting and running multiple businesses.",
+      "userId": 4
+    },
+    {
+      "id": "37",
+      "name": "Kate",
+      "title": "Yoga for Beginners",
+      "body": "How to get started with yoga for physical and mental well-being.",
+      "userId": 5
+    },
+    {
+      "id": "38",
+      "name": "Leo",
+      "title": "Coding Bootcamps",
+      "body": "Are coding bootcamps worth the investment? My experience.",
+      "userId": 6
+    },
+    {
+      "id": "39",
+      "name": "Molly",
+      "title": "Interior Design Inspiration",
+      "body": "Ideas to inspire your next interior design project.",
+      "userId": 7
+    },
+    {
+      "id": "40",
+      "name": "Nina",
+      "title": "Starting a YouTube Channel",
+      "body": "Tips for growing and monetizing your YouTube channel.",
+      "userId": 8
+    },
+    {
+      "id": "41",
+      "name": "Owen",
+      "title": "The Future of Electric Cars",
+      "body": "How electric cars are shaping the future of transportation.",
+      "userId": 9
+    },
+    {
+      "id": "42",
+      "name": "Penny",
+      "title": "Sustainable Fashion",
+      "body": "How to build a stylish and sustainable wardrobe.",
+      "userId": 10
+    },
+    {
+      "id": "43",
+      "name": "Quinn",
+      "title": "Fitness Gadgets",
+      "body": "The best fitness gadgets to track your progress.",
+      "userId": 1
+    },
+    {
+      "id": "44",
+      "name": "Ruby",
+      "title": "The Art of Minimalism",
+      "body": "Why adopting minimalism can lead to a simpler, happier life.",
+      "userId": 2
+    },
+    {
+      "id": "45",
+      "name": "Steve",
+      "title": "Freelancing Tips",
+      "body": "How to build a successful freelance career.",
+      "userId": 3
+    },
+    {
+      "id": "46",
+      "name": "Tina",
+      "title": "Running a Marathon",
+      "body": "What I learned from training and running my first marathon.",
+      "userId": 4
+    },
+    {
+      "id": "47",
+      "name": "Uma",
+      "title": "The Science of Happiness",
+      "body": "How psychology helps us understand the keys to happiness.",
+      "userId": 5
+    },
+    {
+      "id": "48",
+      "name": "Victor",
+      "title": "Stock Market Investing",
+      "body": "A guide to getting started with stock market investing.",
+      "userId": 6
+    },
+    {
+      "id": "49",
+      "name": "Wendy",
+      "title": "Raising Pets",
+      "body": "How to care for your pets and give them the best life.",
+      "userId": 7
+    },
+    {
+      "id": "50",
+      "name": "Xander",
+      "title": "Building a Personal Brand",
+      "body": "Why personal branding is important in today's world.",
+      "userId": 8
+    }
+  ],
+  "users": [
+    {
+      "id": "1",
+      "userId": 101,
+      "name": "John Doe"
+    },
+    {
+      "id": "2",
+      "userId": 102,
+      "name": "Jane Smith"
+    },
+    {
+      "id": "3",
+      "userId": 103,
+      "name": "Alice Johnson"
+    },
+    {
+      "id": "4",
+      "userId": 104,
+      "name": "Robert Brown"
+    },
+    {
+      "id": "5",
+      "userId": 105,
+      "name": "Emily Davis"
+    },
+    {
+      "id": "6",
+      "userId": 106,
+      "name": "Michael Wilson"
+    },
+    {
+      "id": "7",
+      "userId": 107,
+      "name": "Sarah Taylor"
+    },
+    {
+      "id": "8",
+      "userId": 108,
+      "name": "David Miller"
+    },
+    {
+      "id": "9",
+      "userId": 109,
+      "name": "Jessica Anderson"
+    },
+    {
+      "id": "10",
+      "userId": 110,
+      "name": "William Thomas"
+    }
+  ]
+}

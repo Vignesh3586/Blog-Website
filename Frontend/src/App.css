@@ -1,0 +1,188 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    width:min(650px,100vw);
+    height: 100%;
+    display: grid;
+    place-content: center;
+}
+:root{
+    --FONT_FAMILY: "Anton", sans-serif;
+    --FONT_SIZE:clamp(1rem, 2.5vw + 1rem, 2rem);
+    --BG_COLOR:#1877F2;
+    --CONTAINER_BG_COLOR:#FFFFFF;
+    --TEXT_COLOR:#000000;
+}
+.header{
+    height: 5vh;
+    display: grid;
+    place-content: center;
+    width:100%;
+    font-family: var(--FONT_FAMILY);   
+    font-size: var(--FONT_SIZE);
+    background-color:var(--BG_COLOR);
+    color:#FFFFFF;
+    position: fixed;
+    top: 0;
+    left:0;
+    right:0;
+    z-index: 1;
+}
+.nav-bar{
+    height: 5vh;
+    width:100%;
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color: var(--BG_COLOR);
+    position: fixed;
+    top:5vh;
+    bottom: 5vh;
+    left:0;
+    right:0;
+    z-index: 1;
+}
+#footer{
+    position:fixed;
+    bottom:0;
+    left:0;
+    right:0;
+    height: 5vh;
+    display: grid;
+    place-content: center;
+    width:100%;
+    font-family: var(--FONT_FAMILY);   
+    font-size: var(--FONT_SIZE);
+    background-color: var(--BG_COLOR);
+    color: #FFFFFF;
+    z-index: 1;
+}
+.posts-container,#users-container{
+    position: absolute;
+    top:10vh;
+    left:0;
+    right:0;
+    bottom:5vh;
+    z-index: 0;
+    background-color:var(--CONTAINER_BG_COLOR);
+    color:var(--TEXT_COLOR);
+    height: 100%;
+    width: 100%;
+    overflow-y: scroll;
+}
+.posts-container p,#users-container p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width:100%;
+    font-family: var(--FONT_FAMILY);   
+    font-size: var(--FONT_SIZE);
+ 
+}
+.posts-container ul{
+    margin: 0;
+    padding: 0;
+}
+.post{
+ height: fit-content;
+ width:100%;
+ display: flex;
+ flex-direction: column;
+ justify-content: space-around;
+ border-bottom: 2px solid #6E6A6A;
+ font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+
+}
+.post *,.post-page *{
+   padding: 10px;
+}
+
+.reactions{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+
+}
+.reactions div{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.reactions button{
+    outline: none;
+    border: none;
+    background-color: transparent;
+    color: "#1877F2";
+}
+.post-page-container,
+.edit-post-container,
+.add-post-container,
+#about-container{
+    position: fixed;
+    top:10vh;
+    left:0;
+    right:0;
+    bottom:5vh;
+    z-index: 0;
+    background-color:var(--CONTAINER_BG_COLOR);
+    color:var(--TEXT_COLOR);
+    height: 100%;
+    width: 100%;
+}
+#about-container{
+    padding: 20px;
+}
+.post-page{
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+.edit-post,.add-post{
+    padding: 30px;
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+.add-post select,
+.add-post button,
+.add-post input,
+.edit-post select,
+.edit-post button,
+.edit-post input{
+    height: 30px;
+    padding-left: 10px;
+    border: 2px solid #000000;
+    border-radius: 5px;
+}
+.edit-post textarea,
+.add-post textarea{
+    height: 80px;
+    border: 2px solid #000000;
+    border-radius: 5px;
+    padding: 10px;
+    resize: none;
+}
+
+#users-container ul{
+    margin: 0;
+    list-style-type:square ;
+    
+}
+#users-container li{
+    margin: 10px;
+    padding: 10px;
+   
+}
